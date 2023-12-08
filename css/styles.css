@@ -10,6 +10,8 @@ body {
 /* reset styles */
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 ul,
 ol {
@@ -25,12 +27,12 @@ h5,
 h6,
 p {
   margin: 0;
-  padding: 0;
 }
 
 /* container */
 .container {
-  width: 1158px;
+  width: 1128px;
+  padding: 0 15px;
   margin: 0 auto;
   display: flex;
 }
@@ -38,6 +40,7 @@ p {
 .pag-vis {
   border-bottom: 1px solid #e7e9fc;
   padding: 0 15px;
+  display: flex;
 }
 .navig {
   display: flex;
@@ -53,9 +56,9 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  display: inline-block;
   margin-right: 76px;
   margin-bottom: 16px;
+  display: flex;
 }
 .header-studio {
   color: #2e2f42;
@@ -74,6 +77,9 @@ p {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.hattul {
+  display: flex;
 }
 .hatt {
   display: flex;
@@ -104,6 +110,10 @@ p {
 /* contacts */
 .adress-main {
   font-style: normal;
+}
+.adress-ul {
+  display: flex;
+  padding: 24px 0;
 }
 .adress-visual {
   display: flex;
@@ -182,6 +192,12 @@ p {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  display: block;
+  margin-bottom: 72px;
+}
+.team-ul {
+  display: flex;
+  gap: 24px;
 }
 .portfolio {
   color: #2e2f42;
@@ -195,8 +211,18 @@ p {
 .paragraph-description-visual {
   padding: 120px 0;
 }
-.without {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .description {
   display: flex;
@@ -228,21 +254,35 @@ p {
 
 .team-photo {
   background-color: #f4f4fd;
+  padding: 120px 0;
+
+  display: block;
 }
 .team-color {
   background-color: #ffffff;
+  display: flex;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-visual {
+  display: flex;
+
+  padding: 32px 0;
 }
 
 .team-names {
   color: #2e2f42;
-
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  display: flex;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-discr {
   color: #434455;
+  text-align: center;
 
   font-size: 16px;
   font-weight: 400;
@@ -277,6 +317,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 100px 0;
+  display: inline-block;
 }
 .footer-discr {
   color: #f4f4fd;
