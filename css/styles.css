@@ -46,8 +46,7 @@ p {
   display: flex;
   align-items: center;
   gap: 40px;
-
-  flex-shrink: 0;
+  padding: 24px 0;
 }
 .web-logo {
   font-family: 'Raleway', sans-serif;
@@ -88,7 +87,6 @@ p {
 .hatt {
   display: flex;
   margin-right: 40px;
-  padding: 24px 0;
 }
 
 .header-list {
