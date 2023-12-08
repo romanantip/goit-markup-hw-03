@@ -192,6 +192,23 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.paragraph-description-visual {
+  padding: 120px 0;
+}
+.without {
+  display: none;
+  margin-bottom: 8px;
+}
+.description {
+  display: flex;
+  gap: 24px;
+}
+.description-gap {
+  width: calc((100% - 3 * 24px));
+}
+.description-last {
+  margin-right: 0;
+}
 
 .tittle-description {
   color: #2e2f42;
