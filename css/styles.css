@@ -206,11 +206,6 @@ p {
   display: flex;
   flex-basis: calc((100% - 72px) / 4);
 }
-.description-last {
-  display: flex;
-  flex-basis: calc((100% - 72px) / 4);
-  margin-right: 0;
-}
 
 .tittle-description {
   color: #2e2f42;
