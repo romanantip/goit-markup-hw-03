@@ -112,8 +112,6 @@ p {
 /* contacts */
 .adress-main {
   font-style: normal;
-  display: flex;
-  padding: 24px 0;
 }
 .adress-ul {
   display: flex;
@@ -203,15 +201,7 @@ p {
   display: flex;
   gap: 24px;
 }
-.portfolio {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
+
 .paragraph-description-visual {
   padding: 120px 0;
 }
@@ -295,6 +285,33 @@ p {
 }
 
 /* portfolio */
+.portfolio-sect {
+  padding: 120px 0 120px 0;
+}
+.portfolio {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.portfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.porfolio-li {
+  width: calc((100% - 48px) / 3);
+}
+.apps-container {
+  padding: 32px 16px;
+}
 
 .apps {
   color: #2e2f42;
@@ -302,6 +319,7 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .apps-discr {
   color: #434455;
@@ -321,6 +339,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 100px 0;
+}
+.web-logo-footer {
   display: inline-block;
 }
 .footer-discr {
