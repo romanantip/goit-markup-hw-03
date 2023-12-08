@@ -303,10 +303,10 @@ p {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 .porfolio-li {
+  border: 1px solid #e7e9fc;
+  border-top: none;
   width: calc((100% - 48px) / 3);
 }
 .apps-container {
@@ -340,9 +340,7 @@ p {
   letter-spacing: 0.02em;
   padding: 100px 0;
 }
-.web-logo-footer {
-  display: inline-block;
-}
+
 .footer-discr {
   color: #f4f4fd;
   font-size: 16px;
