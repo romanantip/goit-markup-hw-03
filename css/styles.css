@@ -196,17 +196,19 @@ p {
   padding: 120px 0;
 }
 .without {
-  display: none;
-  margin-bottom: 8px;
+  visibility: hidden;
 }
 .description {
   display: flex;
   gap: 24px;
 }
 .description-gap {
-  width: calc((100% - 3 * 24px));
+  display: flex;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .description-last {
+  display: flex;
+  flex-basis: calc((100% - 72px) / 4);
   margin-right: 0;
 }
 
@@ -216,6 +218,8 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
+  margin-bottom: 8px;
 }
 
 .paragraph-description {
