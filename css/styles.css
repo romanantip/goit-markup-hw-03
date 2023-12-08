@@ -60,6 +60,8 @@ p {
   margin-right: 76px;
   margin-bottom: 16px;
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-studio {
   color: #2e2f42;
