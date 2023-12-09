@@ -59,7 +59,7 @@ p {
   text-decoration: none;
   margin-right: 76px;
   margin-bottom: 16px;
-  display: flex;
+  display: inline-block;
 }
 .header-studio {
   color: #2e2f42;
@@ -111,6 +111,7 @@ p {
 /* contacts */
 .adress-main {
   font-style: normal;
+  padding: 24px 0;
 }
 .adress-ul {
   display: flex;
