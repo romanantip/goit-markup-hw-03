@@ -168,6 +168,9 @@ header .container {
   border: none;
   border-radius: 4px;
 }
+button .button {
+  display: block;
+}
 .button:hover {
   background-color: #404bbf;
 }
@@ -247,7 +250,6 @@ header .container {
 .team-photo {
   background-color: #f4f4fd;
   padding: 120px 0;
-
   display: block;
 }
 .team-color {
