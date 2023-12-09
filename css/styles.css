@@ -41,6 +41,7 @@ p {
   border-bottom: 1px solid #e7e9fc;
   padding: 0 15px;
   display: flex;
+  padding: 24px 0;
 }
 .navig {
   display: flex;
@@ -111,7 +112,6 @@ p {
 /* contacts */
 .adress-main {
   font-style: normal;
-  padding: 24px 0;
 }
 .adress-ul {
   display: flex;
