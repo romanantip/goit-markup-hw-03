@@ -45,7 +45,6 @@ p {
 .navig {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .web-logo {
   font-family: 'Raleway', sans-serif;
@@ -80,6 +79,7 @@ p {
 }
 .hattul {
   display: flex;
+  gap: 40px;
   padding: 24px 0;
 }
 .hatt {
@@ -118,7 +118,6 @@ p {
 .adress-visual {
   display: flex;
   margin-right: 40px;
-  gap: 40px;
 }
 .adress-visual2 {
   display: flex;
