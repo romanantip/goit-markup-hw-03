@@ -41,13 +41,11 @@ p {
   border-bottom: 1px solid #e7e9fc;
   padding: 0 15px;
   display: flex;
-  padding: 24px 0;
 }
 .navig {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 .web-logo {
   font-family: 'Raleway', sans-serif;
@@ -83,7 +81,6 @@ p {
 .hattul {
   display: flex;
   padding: 24px 0;
-  gap: 40px;
 }
 .hatt {
   display: flex;
@@ -115,7 +112,7 @@ p {
 }
 .adress-ul {
   display: flex;
-  padding: 24px 0;
+  gap: 40px;
 }
 .adress-visual {
   display: flex;
