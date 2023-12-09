@@ -35,6 +35,9 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
+.divo {
+  display: flex;
+}
 /* header */
 .pag-vis {
   border-bottom: 1px solid #e7e9fc;
@@ -228,7 +231,6 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   margin-bottom: 8px;
 }
 
