@@ -35,9 +35,7 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
-.divo {
-  display: flex;
-}
+
 /* header */
 .pag-vis {
   border-bottom: 1px solid #e7e9fc;
