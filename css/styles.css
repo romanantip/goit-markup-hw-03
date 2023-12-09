@@ -34,14 +34,16 @@ p {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
 }
 
 /* header */
 .pag-vis {
   border-bottom: 1px solid #e7e9fc;
-  padding: 0 15px;
+}
+header .container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .navig {
   display: flex;
@@ -57,7 +59,6 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-  margin-bottom: 16px;
 }
 .header-studio {
   color: #2e2f42;
@@ -80,11 +81,9 @@ p {
 .hattul {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .hatt {
   display: flex;
-  margin-right: 40px;
 }
 
 .header-list {
@@ -98,6 +97,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 24px 0;
+  display: block;
 }
 .header-list:hover {
   color: #404bbf;
@@ -141,6 +142,7 @@ p {
 .tittle {
   background-color: #2e2f42;
   padding: 188px 0;
+  text-align: center;
 }
 
 .tittle-text {
@@ -151,6 +153,7 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto 48px;
 }
 .button {
   background-color: #4d5ae5;
@@ -220,7 +223,6 @@ p {
   gap: 24px;
 }
 .description-gap {
-  display: flex;
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -256,7 +258,7 @@ p {
 }
 .team-visual {
   display: block;
-
+  text-align: center;
   padding: 32px 0;
 }
 
@@ -266,8 +268,7 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  display: flex;
-  text-align: center;
+
   margin-bottom: 8px;
 }
 .team-discr {
@@ -338,11 +339,15 @@ p {
   letter-spacing: 0.02em;
   padding: 100px 0;
 }
-
+footer .web-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-discr {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
