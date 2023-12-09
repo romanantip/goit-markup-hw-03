@@ -75,6 +75,7 @@ p {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
 }
 .hattul {
   display: flex;
@@ -346,4 +347,5 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: inline-block;
 }
