@@ -109,6 +109,7 @@ p {
 /* contacts */
 .adress-main {
   font-style: normal;
+  gap: 40px;
 }
 .adress-ul {
   display: flex;
