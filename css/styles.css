@@ -341,6 +341,7 @@ header .container {
 }
 footer .web-logo {
   display: inline-block;
+  margin-right: 0;
   margin-bottom: 16px;
 }
 .footer-discr {
