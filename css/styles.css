@@ -300,12 +300,12 @@ p {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .porfolio-li {
   display: block;
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 .apps-container {
   display: block;
